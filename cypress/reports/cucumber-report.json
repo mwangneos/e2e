@@ -1,0 +1,1136 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "service-portal---client-view;a-new-quote-can-be-saved-and-submitted-by-adviser-and-cancelled-by-ops-successfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "a new quote can be saved and submitted by adviser and cancelled by ops successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I logged into service portal as 'adviser' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should be able to see 'Welcome back to the NEOS Policy Servicing Portal'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to 'Inforce quoting' page via 'Client' of client '2'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be able to see 'Aaliyah Adams'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click to add a new quote for client '2'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see 'Please make at least one change'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I reduce the sum insured amount to '4996'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click 'Save' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I navigate to 'Inforce quoting' page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be able to see 'Active Quote'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click Load to view the saved quote",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be able to see 'Reference'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click 'Submit' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be able to see 'Declaration'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I tick the checkbox to confirm the request then click Submit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I navigate to 'Inforce quoting' page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be able to see 'Submitted Quote'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click 'Logout' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I logged into service portal as 'ops' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click 'Submitted requests' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I search for the target request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click Load to view the submitted request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click 'Cancel' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I navigate to 'Inforce quoting' page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should be able to see 'Cancelled Quote'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I click 'Logout' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I logged into service portal as 'adviser' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I navigate to 'Inforce quoting' page via 'Client' of client '2'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should be able to see 'Cancelled Quote'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1754000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "service-portal---client-view;a-new-request-of-updating-client-summary-can-be-submitted-by-adviser-and-cancelled-by-ops-successfully",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "a new request of updating client summary can be submitted by adviser and cancelled by ops successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I logged into service portal as 'adviser' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I should be able to see 'Welcome back to the NEOS Policy Servicing Portal'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I navigate to 'Client summary' page via 'Client' of client '2'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be able to see 'Aaliyah Adams'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "I click update to popup the details",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I update the email field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I tick the checkbox to confirm the request then click Submit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "I should be able to see 'Submitted client details update'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I should be able to see the updated email address",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I click 'Logout' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I logged into service portal as 'ops' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I click 'Submitted requests' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I search for the target request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I click Load to view the submitted request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I click 'Cancel' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should be able to see 'Cancelled client details update'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I should be able to see the updated email address",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "service-portal---client-view;a-new-quote-can-be-submitted-by-adviser-and-actioned-by-ops-successfully",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "a new quote can be submitted by adviser and actioned by ops successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "I logged into service portal as 'adviser' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I should be able to see 'Welcome back to the NEOS Policy Servicing Portal'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I navigate to 'Inforce quoting' page via 'Client' of client '1'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I should be able to see 'Aaliyah Adams'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "I click to add a new quote for client '1'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "I should be able to see 'Please make at least one change'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I reduce the sum insured amount to '6000'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I click 'Submit' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should be able to see 'Declaration'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I tick the checkbox to confirm the request then click Submit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I navigate to 'Inforce quoting' page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "I should be able to see 'Submitted Quote'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click 'Logout' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "I logged into service portal as 'ops' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I click 'Submitted requests' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I click Load to view the submitted request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I click 'Action' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "I navigate to 'Inforce quoting' page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "I should be able to see 'Actioned Quote'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "service-portal---client-view;a-new-request-of-updating-payment-details-can-be-submitted-by-adviser-and-cancelled-by-ops-successfully",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "a new request of updating payment details can be submitted by adviser and cancelled by ops successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "I logged into service portal as 'adviser' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I should be able to see 'Welcome back to the NEOS Policy Servicing Portal'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "I navigate to 'Payment details' page via 'Client' of client '3'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "I should be able to see 'Credit Card'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "I click update to popup the details",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "I click 'Direct Debit' to 'update the payment method'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "I should be able to see 'Payment Authority'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "I input the bank account details",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1828000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I tick the checkbox to confirm the request then click Submit",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "I should be able to see 'Submitted payment details update'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "I click 'Logout' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "I logged into service portal as 'ops' user",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2988000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "I click 'Submitted requests' from menu",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "I search for the target request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "I click Load to view the submitted request",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "I click 'Cancel' to 'proceed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 91,
+            "name": "I navigate to 'Payment details' page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "I should be able to see 'Cancelled payment details update'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "service-portal---client-view",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "service portal - client view",
+    "tags": [],
+    "uri": "cypress/features/servicePortal.feature"
+  }
+]

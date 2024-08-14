@@ -1,0 +1,51 @@
+{
+  "name": "automated-e2e-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "uat:debug": "cypress open --config-file cypress.uat.js --e2e --browser chrome -e tags=@debug",
+    "uat:smoke": "cypress open --config-file cypress.uat.js --e2e --browser chrome -e tags=@smokeTest",
+    "uat:open": "cypress open --config-file cypress.uat.js --e2e --browser chrome",
+    "uat:chrome": "cypress run --config-file cypress.uat.js --headed --browser chrome",
+    "uat:headless": "cypress run --config-file cypress.uat.js --headless",
+    "uat:headless:debug": "cypress run --config-file cypress.uat.js --headless -e tags=@debug",
+    "uat:servicePortal:open": "cypress open --config-file cypress.uat.sp.js --e2e --browser chrome",
+    "uat:servicePortal:debug": "cypress open --config-file cypress.uat.sp.js --e2e --browser chrome -e tags=@debug",
+    "uat:servicePortal:headless": "cypress run --config-file cypress.uat.sp.js --headless",
+    "dev:debug": "cypress open --config-file cypress.dev.js --e2e --browser chrome -e tags=@debug",
+    "dev:smoke": "cypress open --config-file cypress.dev.js --e2e --browser chrome -e tags=@smokeTest",
+    "dev:open": "cypress open --config-file cypress.dev.js --e2e --browser chrome",
+    "dev:chrome": "cypress run --config-file cypress.dev.js --headed --browser chrome",
+    "dev:headless": "cypress run --config-file cypress.dev.js --headless",
+    "dev:headless:debug": "cypress run --config-file cypress.dev.js --headless -e tags=@debug",
+    "timers:open": "cypress open --config-file cypress.timers.js --e2e --browser chrome",
+    "timers:headless": "cypress run --config-file cypress.timers.js --headless",
+    "timers:debug": "cypress open --config-file cypress.timers.js --e2e --browser chrome -e tags=@debug",
+    "timers:headless:debug": "cypress run --config-file cypress.timers.js --headless -e tags=@debug",
+    "prd:open": "cypress open --config-file cypress.prd.js --e2e --browser chrome",
+    "prd:headless:pvt": "cypress run --config-file cypress.prd.js --headless -e tags=@pvt",
+    "prd:headless:cta": "cypress run --config-file cypress.prd.js --headless -e tags=@cta",
+    "report": "node ./cypress/support/reportGenerator.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/steps/*.js",
+    "filterSpecs": true,
+    "omitFiltered": true,
+    "json": {
+      "enabled": true,
+      "formatter": "./cucumber-json-formatter",
+      "output": "./cypress/reports/cucumber-report.json"
+    }
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cucumber-html-reporter": "^7.1.1",
+    "cypress": "^13.3.2",
+    "cypress-mailosaur": "^2.13.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "node-qpdf": "^1.0.3",
+    "pdf-parse": "^1.1.1"
+  }
+}
